@@ -1,0 +1,21 @@
+{
+  "name": "uw-covid-emailer",
+  "version": "1.0.0",
+  "description": "Proactively check COVID-19 test results and send email notifications on results.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["COVID-19", "COVID", "scrape", "node", "email", "gmail", "nodemailer"],
+  "author": "Robert Reed",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.2.0",
+    "fs-extra": "^9.0.1",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.4.14",
+    "nodemailer-smtp-transport": "^2.7.4"
+  }
+}
